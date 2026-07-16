@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#051d3c;
+}
+
+#root{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+}
+
+.auth-card{
+
+    width:460px;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:16px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.auth-card h1{
+
+    text-align:center;
+
+    font-size:46px;
+
+    margin-bottom:10px;
+
+}
+
+.subtitle{
+
+    text-align:center;
+
+    color:#666;
+
+    margin-bottom:30px;
+
+    font-size:18px;
+
+}
+
+.input-group{
+
+    margin-bottom:18px;
+
+}
+
+.input-group input{
+
+    width:100%;
+
+    padding:14px;
+
+    border:1px solid #d6d6d6;
+
+    border-radius:10px;
+
+    font-size:17px;
+
+    outline:none;
+
+}
+
+.input-group input:focus{
+
+    border-color:#3366e8;
+
+}
+
+.auth-btn{
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#3366e8;
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+.auth-btn:hover{
+
+    background:#2954c8;
+
+}
+
+.footer{
+
+    margin-top:25px;
+
+    text-align:center;
+
+    color:#555;
+
+    font-size:17px;
+
+}
+
+.footer a{
+
+    color:#3366e8;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    margin-left:5px;
+
+}
+
+.footer a:hover{
+
+    text-decoration:underline;
+
+}
